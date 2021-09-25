@@ -1,0 +1,57 @@
+FUNCTIONAL REQUIREMENTS :-
+
+	1. It specifies “What should the software system do?”
+	
+	2. Functional requirement is specified by User.
+	
+	3. It is mandatory.
+	
+	4. It is captured in use case. 
+	
+	5. Defined at a component level.
+	
+	6. Helps you verify the functionality of the software.
+	
+	7. Functional Testing like System, Integration, End to End, API testing, etc are done.
+	
+	8. Usually easy to define.
+	
+	9. (e.g.) 1) Authentication of user whenever he/she logs into the system.
+			  2) System shutdown in case of a cyber attack. 
+
+Functional requirements form the behavior of the system. 
+	If someone is giving you functional requirements for a project, they're giving you information on how the project's product is going to work.
+	These requirements describe the interactions between a system and its environment.
+
+
+=======================================================================================================
+=======================================================================================================
+
+
+NON_FUNCTIONAL REQUIREMENTS :-
+
+	1. It places constraints on “How should the software system fulfill the functional requirements?”
+	
+	2. Non-functional requirement is specified by technical peoples e.g. Architect, Technical leaders and software developers.
+	
+	3. It is not mandatory.
+	
+	4. It is captured as a quality attribute.
+	
+	5. Applied to a system as a whole.
+	
+	6. Helps you to verify the performance of the software.
+	
+	7. Non-Functional Testing like Performance, Stress, Usability, Security testing, etc are done.
+	
+	8. Usually more difficult to define. 
+	
+	9. (e.g.) 1) Emails should be sent with a latency of no greater than 12 hours from such an activity.
+		  2) The processing of each request should be done within 10 seconds.
+
+
+Non-functional requirements, also known as quality attributes, describe the general software characteristics. 
+	They are also called non-behavioral requirements.
+	They basically deal with issues like:
+	 Portability, Security, Maintainability, Reliability, Scalability, Performance, Reusability, Flexibility.
+	
