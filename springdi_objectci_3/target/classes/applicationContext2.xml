@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+">
+<!-- bean configuration -->
+<bean id="a1" class="Address">       
+<property name="city" value="Amravati"></property>  
+<property name="state" value="Maharashtra"></property>
+<property name="country" value="India"></property>
+</bean>  
+  
+  <bean id="d1" class="Department"> 
+<property name="id" value="101"></property>
+<property name="d_name" value="Development"></property>
+<property name="d_head" value="XYZ"></property>
+<property name="d_unitno" value="109"></property>  
+</bean>  
+
+<bean id="e" class="Employee">  
+<property name="id" value="11"></property>
+<property name="name" value="Anirudha"></property>
+<property name="address" ref="a1"></property>
+<property name="dpt" ref="d1"></property>
+ 
+</bean>
+</beans>
